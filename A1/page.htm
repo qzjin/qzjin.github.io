@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<title>CSCI571 Assignment 1</title>
+
+<head>
+    <style>
+        h1 {
+            font-family: "Georgia";
+            color: #2d2b2c;
+            font-size: 60px;
+            font-weight: normal;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        a:link {
+            color: #7a7a7a;
+            font-family: "Georgia";
+            font-style: italic;
+            text-decoration: none;
+            font-size: 14px;
+            margin: 0px 10px;
+        }
+
+        a:visited {
+            color: #7a7a7a;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #2d2b2c;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: #7a7a7a;
+            text-decoration: none;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            margin: 20px auto 10px auto;
+            width: 800px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .flex-container>div {
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+
+        }
+
+        .largeImg {
+            width: auto;
+            height: 800px;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+	.icons {
+	    width: 18px;
+	    height: 18px;
+	}
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div style="border-style: solid; height: 150px; width: 700px; margin-bottom: 90px;">
+            <h1>Paul James</h1>
+            <a href="page2.htm#Home" target="_blank" style="color: #2d2b2c;">home</a>
+            <a href="page2.htm#Nature" target="_blank">nature</a>
+            <a href="page2.htm#Urban" target="_blank">urban</a>
+            <a href="page2.htm#Bio" target="_blank">bio</a>
+        </div>
+        <img class="largeImg" src="pier.jpeg" alt="pier.jpeg"></img>
+        <img class="largeImg" src="road.jpeg" alt="road.jpeg"></img>
+        <img class="largeImg" src="lake.jpeg" alt="lake.jpeg"></img>
+        <div style = "margin-top: 40px; margin-bottom: 10px; font-family: 'Georgia'; font-style:italic; font-size: 10px; color: #2d2b2c;">
+            &copy; 2023 by Paul James
+        </div>
+        <div style = "margin-bottom: 20px;">
+	    <a href="https://www.facebook.com/" target="_blank">
+		<img class="icons" src="facebook.png" alt="Facebook">
+	    </a>
+	    <a href="https://www.twitter.com/" target="_blank">
+		<img class="icons" src="twitter.png" alt="Twitter">
+	    </a>	
+	    <a href="https://www.instagram.com/" target="_blank">
+		<img class="icons" src="instagram.png" alt="Instagram">
+	    </a>	
+	</div>
+    </div>
+</body>
+
+</html>
